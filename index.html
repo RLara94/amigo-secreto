@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Juego del Amigo Secreto 🎁</h1>
+        <p>Agrega los nombres de los participantes y sortea el Amigo Secreto.</p>
+        
+        <div class="formulario">
+            <input type="text" id="nombre" placeholder="Ingrese un nombre..." />
+            <button id="btnAgregar">Agregar</button>
+        </div>
+
+        <div class="lista-container">
+            <h2>Participantes:</h2>
+            <ul id="lista"></ul>
+        </div>
+
+        <button id="btnSortear" class="btn-sorteo">Sortear 🎲</button>
+
+        <div class="resultados-container">
+            <h2>Resultados:</h2>
+            <div id="resultados"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
